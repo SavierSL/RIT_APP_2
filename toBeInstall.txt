@@ -1,0 +1,65 @@
+BACK END #############################################################################################
+npm init -y
+yarn add -D @types/node typescript
+yarn add -D ts-node
+npx tsconfig.json
+yarn add -D nodemon
+!!!! we will not use this anymore!!!!! yarn add @mikro-orm/cli @mikro-orm/core @mikro-orm/migrations @mikro-orm/postgresql pg
+
+  "mikro-orm": {
+    "useTsNode": true,
+    "configPaths": [
+      "./src/mikro-orm.config.ts",
+      "./dist/mikro-orm.config.js"
+    ]
+  }
+
+npx mikro-orm migration:create 
+yarn add express apollo-server-express graphql type-graphql
+yarn add -D @types/express
+yarn add reflect-metadata
+yarn add class-validator
+yarn add -D  @types/validator
+yarn add -D argon2
+yarn add redis connect-redis express-session
+yarn add -D @types/redis @types/express-session @types/connect-redis
+yarn add cors
+yarn add -D @types/cors
+yarn add nodemailer
+yarn add -D @types/nodemailer
+//token for reset pass uuid
+yarn add uuid ioredis
+yarn add -D @types/uuid @types/ioredis
+
+SWITCH TO TYPEORM #############################################
+yarn add typeorm
+
+
+
+
+
+to make our own migration npx typeorm migration:create -n FakePosts
+
+
+
+
+
+
+
+FRONT END ############################################## LET"S USE NPM HERE
+yarn create next-app --example with-chakra-ui .
+yarn add --dev typescript @types/node
+yarn add urql graphql
+
+//TO TO INITIALIZE GRAPHQL sender
+yarnn add -D graphql-codegen
+yarn add -D @graphql-codegen/cli and initialize it by running yarn graphql-codegen init or NPM!!
+yarn add -D @graphql-codegen/typescript-urql
+npm i @urql/exchange-graphcache
+npm i --save next-urql react-is isomorphic-unfetch #server side rendering
+
+URQL TO APOLLO ###############################################
+npm install @apollo/client
+
+
+
