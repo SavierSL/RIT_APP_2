@@ -28,7 +28,7 @@ const main = async () => {
     type: "postgres",
     database: "rit2",
     username: "postgres",
-    password: "xxkaa548",
+    password: "secret123",
     logging: true,
     synchronize: true,
     entities: [Post, User, Updoot],
